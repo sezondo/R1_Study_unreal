@@ -6,7 +6,7 @@
 #include "UObject/NoExportTypes.h"
 #include "R1Object.generated.h"
 
-/**
+/*
  * 
  */
 UCLASS()
@@ -16,8 +16,11 @@ class R1_API UR1Object : public UObject
 	
 
 public:
-		
-	int32 Hp = 100;
-	int32 Mp = 50;
+	
+	int32 Hp;
+
+	int32 Mp;
+	
+	float speed;
 
 };
